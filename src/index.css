@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .nav-link {
+    @apply capitalize hover:text-primary text-lg transition duration-200;
+  }
+  .user-action__btn {
+    @apply flex items-center gap-x-2 hover:bg-disabled/60 px-3 py-1 rounded-full hover:shadow-md hover:text-secondary transition duration-200;
+  }
+}

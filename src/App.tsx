@@ -1,15 +1,15 @@
-import MainContent from "./components/mainContent";
+import MainContent from "./components/MainContent";
 import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
     <section className="font-outfit">
       <div className="grid grid-cols-12 h-[calc(100dvh-8dvh)] w-full">
-        <div className="col-span-2 w-full bg-disabled/30 ">
+        <div className="col-span-2 md:col-span-2 w-full bg-disabled/30 ">
           <Sidebar />
         </div>
 
-        <div className="col-span-10 bg-disabled/80">
+        <div className="col-span-10 md:col-span-10 bg-disabled/80">
           <MainContent />
         </div>
       </div>
